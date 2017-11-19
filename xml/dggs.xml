@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<dggs>
+
+  <ReferenceFrame>
+    <DiscreteGlobalGrid>
+      <BaseUnitPolyhedron>
+        <NumEdges/>
+        <NumVertices/>
+        <Vertices>
+          <Edge>
+            <Vertex>
+              <X/>
+              <Y/>
+            </Vertex>
+          </Edge>
+        </Vertices>
+      </BaseUnitPolyhedron>
+      <Cells>
+        <Cell>
+          <CellArea/>
+          <CellGeometry>
+            <Centroid>
+              <X/>
+              <Y/>
+            </Centroid>
+            <EdgeType/>
+            <NumEdges/>
+          </CellGeometry>
+          <CellPosition>
+            <CellID/>
+          </CellPosition>
+        </Cell>
+      </Cells>
+      <RefinementLevel/>
+    </DiscreteGlobalGrid>
+  </ReferenceFrame>
+
+  <AlgebraicOperations>
+    <CellRelations>
+      <CellChild/>
+      <CellParent/>
+      <CellSibling/>
+    </CellRelations>
+    <CellRelationTests>
+      <IsChild/>
+      <IsParent/>
+      <IsSibling/>
+    </CellRelationTests>
+    <DE9IMRelations>
+      <CellContains/>
+      <CellCoveredBy/>
+      <CellCovers/>
+      <CellCrosses/>
+      <CellIntersects/>
+      <CellOverlaps/>
+      <CellTouches/>
+      <CellWithin/>
+    </DE9IMRelations>
+    <DE9IMRelationTests>
+      <Contains/>
+      <CoveredBy/>
+      <Covers/>
+      <Crosses/>
+      <Disjoint/>
+      <Equals/>
+      <Intersects/>
+      <Overlaps/>
+      <Touches/>
+      <Within/>
+    </DE9IMRelationTests>
+  </AlgebraicOperations>
+
+  <InteroperabilityOperations>
+    <BroadcastOperations>
+      <BroadcastMethod/>
+      <TranslationMethod/>
+    </BroadcastOperations>
+    <QueryOperations>
+      <QueryComponents>
+        <DataRetrievalProcess/>
+        <Parameters/>
+        <SpatialExtents/>
+        <TemporalExtents/>
+      </QueryComponents>
+      <QueryResults/>
+      <QueryType/>
+    </QueryOperations>
+  </InteroperabilityOperations>
+
+  <QuantisationOperations>
+    <QuantisationProcess>
+      <DataAssignmentProcess/>
+      <QuantisationType/>
+    </QuantisationProcess>
+  </QuantisationOperations>
+
+</dggs>
